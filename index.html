@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>PDF Table Extractor</title>
+</head>
+<body>
+    <h1>PDF Table Extractor</h1>
+    <form action="/extract/" method="post" enctype="multipart/form-data">
+        <label for="pdf_file">Upload PDF:</label>
+        <input type="file" id="pdf_file" name="pdf_file" required><br><br>
+
+        <label for="csv_file">Upload CSV (Headers):</label>
+        <input type="file" id="csv_file" name="csv_file" required><br><br>
+
+        <button type="submit">Extract Tables</button>
+    </form>
+</body>
+</html>

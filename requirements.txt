@@ -1,0 +1,7 @@
+FastAPI
+uvicorn
+Jinja2
+pandas
+python-multipart
+pdfplumber
+cff
